@@ -59,6 +59,7 @@ const App = () => {
           <p>Middle Eastern</p>
           <button onClick={buyFullFeast}>View Menu</button>
         </div>
+        
       </div>
     </div>
   )
