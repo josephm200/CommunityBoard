@@ -39,17 +39,20 @@ const App = () => {
       </div>
       <div className = "container">
         <div className = "upgrade">
-          <img className = "mexican"
-          src="./src/assets/mexican.jpg"
-          />
           <h3>Birria-Landia</h3>
           <p>Mexican</p>
           <button onClick={buyDoubleStuffed}>View Menu</button>
+          <img align = "left" className = "mexican"
+          src="./src/assets/mexican.jpg"
+          />
         </div>
         <div className = "upgrade">
           <h3>Mysttik Masala</h3>
           <p>Indian</p>
           <button onClick={buyPartyPack}>View Menu</button>
+          <img align = "left" className = "mexican"
+          src="./src/assets/mexican.jpg"
+          />
         </div>
         <div className = "upgrade">
           <h3>The Halal Guys</h3>
